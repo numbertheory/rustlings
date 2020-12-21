@@ -1,8 +1,11 @@
 // functions1.rs
 // Make me compile! Execute `rustlings hint functions1` for hints :)
 
-// I AM NOT DONE
+
+pub fn call_me() -> &'static str {
+    return "foo"
+}
 
 fn main() {
-    call_me();
+    println!("{}", call_me());
 }
